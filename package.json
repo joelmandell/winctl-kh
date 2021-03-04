@@ -1,6 +1,6 @@
 {
-  "name": "winctl",
-  "version": "1.0.2",
+  "name": "winctl-kh",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "gypfile": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/thraaawn/winctl.git"
+    "url": "https://github.com/joelmandell/winctl-kh.git"
   },
   "keywords": [
     "windows",
@@ -31,7 +31,7 @@
     "desktop"
   ],
   "bugs": {
-    "url": "https://github.com/thraaawn/winctl/issues"
+    "url": "https://github.com/joelmandell/winctl-kh/issues"
   },
-  "homepage": "https://github.com/thraaawn/winctl"
+  "homepage": "https://github.com/joelmandell/winctl-kh"
 }
