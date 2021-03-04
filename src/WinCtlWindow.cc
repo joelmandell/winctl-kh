@@ -43,12 +43,7 @@ NAN_METHOD(Window::New) {
 		Window *obj = new Window((HWND)info[0]->IntegerValue());
 		obj->Wrap(info.This());
 		info.GetReturnValue().Set(info.This());
-	} else {
-		const int argc = 1;
-		v8::Local<v8::Value> argv[argc] = {info[0]};
-		v8::Local<v8::Function> cons = Nan::New(constructor);
-		info.GetReturnValue().Set(cons->NewInstance(argc, argv));
-	}
+	} 
 }
 
 NAN_METHOD(Window::GetActiveWindow) {
